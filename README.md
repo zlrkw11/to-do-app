@@ -18,5 +18,8 @@ setTodos([...todos, todo]);
 
 make todos list old items + new item we added.
 
-output:
-![alt text](image.png)
+set the input field to empty:
+
+```
+setTodo("");
+```
