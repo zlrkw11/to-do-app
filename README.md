@@ -8,3 +8,9 @@ task 2
 task 3
 
 total completed
+
+working:
+add todo item to todos list
+
+output:
+![alt text](image.png)

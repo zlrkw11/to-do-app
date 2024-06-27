@@ -5,6 +5,8 @@ export default function ToDo() {
   function handleSubmit(e) {
     // prevent refreshing
     e.preventDefault();
+    setTodos([...todos, todo]);
+    console.log(todos);
   }
 
   return (
@@ -15,9 +17,7 @@ export default function ToDo() {
           value={todo}
           onChange={(e) => setTodo(e.target.value)}
         />
-        <button type="submit" onClick={}>
-          Add
-        </button>
+        <button type="submit">Add</button>
       </form>
     </div>
   );
