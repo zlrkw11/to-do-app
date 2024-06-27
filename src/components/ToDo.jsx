@@ -1,4 +1,5 @@
 export default function ToDo() {
+  const [todo, setTodo] = useState();
   return (
     <div>
       <form>
