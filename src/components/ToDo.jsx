@@ -2,6 +2,7 @@ import { useState } from "react";
 export default function ToDo() {
   const [todo, setTodo] = useState("");
   function handleSubmit(e) {
+    // prevent refreshing
     e.preventDefault();
   }
   return (
