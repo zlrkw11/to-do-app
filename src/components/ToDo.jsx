@@ -4,7 +4,11 @@ export default function ToDo() {
   return (
     <div>
       <form>
-        <input type="text" value={todo} />
+        <input
+          type="text"
+          value={todo}
+          onChange={(e) => setTodo(e.target.value)}
+        />
         <button type="submit">Add</button>
       </form>
     </div>
