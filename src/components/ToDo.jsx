@@ -7,6 +7,7 @@ export default function ToDo() {
     e.preventDefault();
     setTodos([...todos, todo]);
     console.log(todos);
+    setTodo("");
   }
 
   return (
