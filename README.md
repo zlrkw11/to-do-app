@@ -59,7 +59,9 @@ setTodo("");
     background-color: yellow;
     font: 40px;
     }
+    ```
 
+    just apply the class name from css to the className field
 
     ```
 
@@ -68,8 +70,5 @@ setTodo("");
          <div>
             <h1 className="header">Inline Component</h1>
           </div>
-
-    ```
-
 
     ```

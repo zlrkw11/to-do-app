@@ -1,5 +1,11 @@
-.header {
+.inline-header {
   color: gray;
   background-color: yellow;
+  font: 40px;
+}
+
+.outline-header {
+  color: red;
+  background-color: blue;
   font: 40px;
 }
