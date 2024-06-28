@@ -1,5 +1,5 @@
 import "../css/styles.css";
-const header = { color: "blue", fontSize: "140px" };
+
 function InlineComponent() {
   return (
     <div>
