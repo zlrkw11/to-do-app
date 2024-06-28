@@ -23,3 +23,7 @@ set the input field to empty:
 ```
 setTodo("");
 ```
+
+#Styling using CSS stylesheet / modules
+
+1. inline-component
