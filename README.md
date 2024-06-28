@@ -94,5 +94,4 @@ setTodo("");
         ```
         <h1 className={styles.header}>Inline Component</h1>
         ```
-        ![alt text](image-1.png)
         these 2 components both used .header as names, but still have different styling output.
