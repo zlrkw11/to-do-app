@@ -74,6 +74,7 @@ setTodo("");
     ```
 
 3.  CSS modules
+
     Essentially it's an individual file for styling a component, names are scoped for that component ONLY.
 
     ```
