@@ -76,22 +76,24 @@ setTodo("");
 3.  CSS modules
     Essentially it's an individual file for styling a component, names are scoped for that component ONLY.
 
-        ```
-        import styles from "./inlinecomponent.module.css";
-        ```
+    ```
+    import styles from "./inlinecomponent.module.css";
+    ```
 
-        inside CSS:
+    inside CSS:
 
-        ```
-        .header {
-        color: gray;
-        background-color: yellow;
-        font: 40px;
-        }
-        ```
+    ```
+    .header {
+    color: gray;
+    background-color: yellow;
+    font: 40px;
+    }
+    ```
 
-        apply in jsx:
-        ```
-        <h1 className={styles.header}>Inline Component</h1>
-        ```
+    apply in jsx:
+
+    ```
+    <h1 className={styles.header}>Inline Component</h1>
+    ```
+
         these 2 components both used .header as names, but still have different styling output.
