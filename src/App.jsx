@@ -1,8 +1,9 @@
 import ToDo from "./components/ToDo";
+import InlineComponent from "./components/InlineComponent";
 function App() {
   return (
     <>
-      <ToDo />
+      <InlineComponent />
     </>
   );
 }
