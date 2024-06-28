@@ -27,3 +27,13 @@ setTodo("");
 #Styling using CSS stylesheet / modules
 
 1. inline-component
+
+   ```
+    <div>
+     <h1 style={{ color: "blue", fontSize: "140px" }}>Inline Component</h1>
+   </div>
+   ```
+
+   by passing in a CSS-like object with properties for this individual element. Properties are returned as camelCases.
+
+2.
