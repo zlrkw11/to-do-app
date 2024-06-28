@@ -1,8 +1,8 @@
-import "../css/styles.css";
+import styles from "./outlinecomponent.module.css";
 function OutlineComponent() {
   return (
     <div>
-      <h1 className="header">This is an outline component</h1>
+      <h1 className={styles.header}>This is an outline component</h1>
     </div>
   );
 }
