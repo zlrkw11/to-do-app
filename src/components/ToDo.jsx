@@ -20,6 +20,10 @@ export default function ToDo() {
         />
         <button type="submit">Add</button>
       </form>
+
+      {todos.map((item) => (
+        <h3 key={item}>{item}</h3>
+      ))}
     </div>
   );
 }
