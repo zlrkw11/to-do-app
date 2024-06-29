@@ -114,7 +114,7 @@ essentially we map each item (word in the list) into a jsx and returns it.
 so, it is better to return a component like:
 
 ```
-function TodoItem(item) {
+function TodoItem({item}) {
   return <h3 key={item}>{item}</h3>;
 }
 
