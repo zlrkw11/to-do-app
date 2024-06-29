@@ -98,3 +98,35 @@ setTodo("");
     ```
 
         these 2 components both used .header as names, but still have different styling output.
+
+# To Do Items Add & Displaying
+
+1. Mapping
+
+```
+    {todos.map((item) => (
+      <h3 key={item}>{item}</h3>
+    ))}
+```
+
+essentially we map each item (word in the list) into a jsx and returns it.
+
+so, it is better to return a component like:
+
+```
+function TodoItem(item) {
+  return <h3 key={item}>{item}</h3>;
+}
+
+export default TodoItem;
+
+```
+
+where each item accepts - item as a prop and display it,
+so passing the prop to it from the parent component ToDo.jsx when calling it for display:
+
+```
+{todos.map((item) => (
+      <TodoItem item={item} key={item} />
+    ))}
+```
