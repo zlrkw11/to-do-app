@@ -1,11 +1,10 @@
 import ToDo from "./components/ToDo";
-import InlineComponent from "./components/InlineComponent";
-import OutlineComponent from "./components/OutlineComponent";
+import Header from "./components/Header";
 function App() {
   return (
     <>
-      <InlineComponent />
-      <OutlineComponent />
+      <Header />
+      <ToDo />
     </>
   );
 }
