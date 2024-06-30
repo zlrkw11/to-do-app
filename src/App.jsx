@@ -1,12 +1,12 @@
 import "./App.css";
-import ToDo from "./components/ToDo";
+import Todo from "./components/Todo";
 import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <ToDo />
+      <Todo />
     </div>
   );
 }
