@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 export default function Form({ todos, setTodos }) {
   const [todo, setTodo] = useState("");
 
@@ -21,3 +22,8 @@ export default function Form({ todos, setTodos }) {
     </form>
   );
 }
+
+Form.propTypes = {
+  todos: PropTypes.array.isRequired,
+  setTodos: PropTypes.func.isRequired,
+};

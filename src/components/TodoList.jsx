@@ -1,4 +1,5 @@
 import TodoItem from "./TodoItem";
+import PropTypes from "prop-types";
 export default function TodoList({ todos }) {
   return (
     <div>
@@ -8,3 +9,12 @@ export default function TodoList({ todos }) {
     </div>
   );
 }
+TodoList.propTypes = {
+  todos: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      // Add other required properties here
+    })
+  ).isRequired,
+  id: PropTypes.number.isRequired,
+};
