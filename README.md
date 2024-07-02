@@ -134,6 +134,13 @@ so passing the prop to it from the parent component ToDo.jsx when calling it for
 #Styling
 
 1.  center the div automatically on the page horizontally
+
     ```
     margin: 0 auto;
+    ```
+
+2.  push left / right
+
+    ```
+    float: right
     ```
