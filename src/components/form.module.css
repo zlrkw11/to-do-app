@@ -13,3 +13,7 @@
   border: none;
   display: block;
 }
+
+.modernInput:focus {
+  outline: none;
+}
