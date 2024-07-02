@@ -21,7 +21,9 @@ export default function Form({ todos, setTodos }) {
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
       />
-      <button type="submit">Add</button>
+      <button className={styles.modernButton} type="submit">
+        Add
+      </button>
     </form>
   );
 }
