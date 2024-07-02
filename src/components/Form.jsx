@@ -13,7 +13,7 @@ export default function Form({ todos, setTodos }) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className={styles.todoform} onSubmit={handleSubmit}>
       <input
         type="text"
         value={todo}
