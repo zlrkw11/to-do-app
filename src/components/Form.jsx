@@ -17,7 +17,7 @@ export default function Form({ todos, setTodos }) {
       <div className={styles.inputContainer}>
         <input
           className={styles.modernInput}
-          placeholder="enter to do item"
+          placeholder="Enter to do item"
           type="text"
           value={todo}
           onChange={(e) => setTodo(e.target.value)}
