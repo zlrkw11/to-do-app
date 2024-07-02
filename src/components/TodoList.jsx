@@ -1,8 +1,9 @@
 import TodoItem from "./TodoItem";
 import PropTypes from "prop-types";
+import styles from "./todolist.module.css";
 export default function TodoList({ todos }) {
   return (
-    <div>
+    <div className={styles.list}>
       {todos.map((item) => (
         <TodoItem item={item} key={item} />
       ))}
