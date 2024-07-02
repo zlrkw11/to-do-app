@@ -28,3 +28,7 @@
   color: #ffffff;
   cursor: pointer;
 }
+
+.inputContainer {
+  display: flex;
+}
