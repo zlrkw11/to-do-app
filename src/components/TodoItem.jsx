@@ -3,7 +3,7 @@ function TodoItem({ item }) {
   return (
     <div className={styles.item}>
       <div className={styles.itemName}>{item}</div>
-      <hr />
+      <hr className={styles.line} />
     </div>
   );
 }
