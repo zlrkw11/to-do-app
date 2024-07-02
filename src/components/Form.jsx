@@ -15,6 +15,7 @@ export default function Form({ todos, setTodos }) {
   return (
     <form className={styles.todoform} onSubmit={handleSubmit}>
       <input
+        className={styles.modernInput}
         type="text"
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
