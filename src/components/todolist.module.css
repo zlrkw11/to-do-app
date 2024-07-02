@@ -6,3 +6,15 @@
   padding: 20px;
   margin-top: 50px;
 }
+
+.item {
+  width: 500px;
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.itemName {
+  font-weight: bold;
+  padding: 20px;
+}

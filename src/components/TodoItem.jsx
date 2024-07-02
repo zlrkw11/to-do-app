@@ -1,6 +1,11 @@
-// eslint-disable-next-line react/prop-types
+import styles from "./todolist.module.css";
 function TodoItem({ item }) {
-  return <h3>{item}</h3>;
+  return (
+    <div className={styles.item}>
+      <div className={styles.itemName}>{item}</div>
+      <hr />
+    </div>
+  );
 }
 
 export default TodoItem;
