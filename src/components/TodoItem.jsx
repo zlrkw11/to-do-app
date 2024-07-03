@@ -2,7 +2,6 @@ import styles from "./todolist.module.css";
 function TodoItem({ item, todos, setTodos }) {
   function handleDelete(item) {
     console.log("Delete button clicked for item", item);
-
     setTodos(todos.filter((todo) => todo !== item));
   }
   return (
