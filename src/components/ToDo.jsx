@@ -8,7 +8,7 @@ export default function Todo() {
       {/* Form component runs and provides a todo list */}
       <Form todos={todos} setTodos={setTodos} />
       {/* TodoList component renders the list */}
-      <TodoList todos={todos} />
+      <TodoList todos={todos} setTodos={setTodos} />
     </div>
   );
 }
