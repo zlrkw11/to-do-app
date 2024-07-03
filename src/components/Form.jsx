@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import styles from "./form.module.css";
 export default function Form({ todos, setTodos }) {
-  const [todo, setTodo] = useState("");
+  const [todo, setTodo] = useState({ name: "", done: false });
 
   function handleSubmit(e) {
     // prevent refreshing
@@ -19,7 +19,7 @@ export default function Form({ todos, setTodos }) {
           className={styles.modernInput}
           placeholder="Enter to do item"
           type="text"
-          value={todo}
+          value={todo.name}
           onChange={(e) => setTodo(e.target.value)}
         />
         <button className={styles.modernButton} type="submit">
